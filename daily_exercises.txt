@@ -1,0 +1,26 @@
+isolation_forest.py
+    1) Generate data in two clusters and some outliers
+    2) Split into a training and test set
+    3) Using the training set fit IsolationForest from sklearn
+    4) Use the test set to see how well outliers were detected
+
+    extensions:
+        - Change clusters and see how this affects fitting - make clusters larger/smaller, closer together, further apart etc.
+
+truncated_svd.py
+    1) Choose 2 vectors, v_1,v_2 in R^4, to form a basis for a 2 dimensional subspace V
+    2) Generate samples contained in V
+    3) Use TruncatedSVD from sklearn to find a map of V onto R^2
+    4) Transform sample using map
+    5) Evaluate how well TruncatedSVD preserved integrity of sample
+
+    extensions:
+        - Add an error term to samples in V - see how this affects how well the map performs
+
+mixture_model.py
+    1)
+
+    extensions:
+        - Add outliers - see how this affects the fitting
+        - Move clusters closer together/ further apart - see how this affects the fitting
+        - Try adding another cluster - maybe joining cluster - see how this affects the fitting
