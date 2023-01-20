@@ -21,7 +21,7 @@ print("reduced points:")
 print(reduced)
 
 print("reduced basis:")
-print(reduced)
+print(reduced_basis)
 
 print("reduced points inversed - actual:")
 print(svd.inverse_transform(reduced) - points)

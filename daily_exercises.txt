@@ -18,7 +18,9 @@ truncated_svd.py
         - Add an error term to samples in V - see how this affects how well the map performs
 
 mixture_model.py
-    1)
+    1) Generate data in two clusters, one spherical
+    2) Use GridSearchCV from sklearn to find best fitting of GaussianMixture - vary number of clusters and shape of covariance matrix
+    3) Plot cluster predictions against generated data
 
     extensions:
         - Add outliers - see how this affects the fitting
